@@ -1,0 +1,41 @@
+:host{
+    font-display: sans-serif;
+    border:2px solid blue;
+    margin: 2rem;
+    padding: 1rem;
+    display: block;
+    width: 20rem;
+    max-width: 100%;
+}
+form input{
+    font: inherit;
+    color:blue;
+    padding: 0.25rem 0.25rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input:focus, 
+form button:focus{
+    outline: none;
+}
+
+form button{
+    font:inherit;
+    padding: 0.25rem 0.5rem;
+    border:1px solid blue;
+    background: blue;
+    color:white;
+}
+form button:disabled{
+    background: gray;
+    border-color:gray;
+    color:white;
+    cursor:not-allowed;
+    opacity: 0.4;
+}
+form button:hover,
+form button:active{
+    background: darkblue;
+    border-color: darkblue;
+}
